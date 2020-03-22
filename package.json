@@ -4,7 +4,7 @@
   "description": "Basic express server serving swagger middleware with swagger docs.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:a3leong/express-swagger.git"
+    "url": "https://github.com/a3leong/express-swagger.git"
   },
   "main": "src/index.js",
   "dependencies": {
@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js -e js,json,yaml"
+    "start": "nodemon src/index.js -e js,json,yaml",
+    "production": "node src/index.js"
   },
   "author": "",
   "license": "ISC"
